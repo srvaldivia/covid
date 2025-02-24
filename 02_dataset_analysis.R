@@ -1,5 +1,5 @@
 # 0. load packages --------------------------------------------------------
-pacman::p_load(tidyverse, ggformula, classInt, cli, Cairo)
+pacman::p_load(tidyverse, ggformula, classInt, cli)
 cli_alert_info("Paquetes cargados: {.pkg {rev(pacman::p_loaded())}}",
                wrap = TRUE)
 
@@ -33,7 +33,6 @@ ggplot(data = covid_procesados,
   theme(panel.grid.minor = element_blank())
 
 ggsave(filename = "plots/casos_nuevos_diarios.png",
-       type = "cairo",
        scale = 1.3,
        bg = "white",
        dpi = 300,
@@ -57,7 +56,6 @@ ggplot(data = covid_procesados,
   theme(panel.grid.minor = element_blank())
 
 ggsave(filename = "plots/tendencia_casos_diarios.png",
-       type = "cairo",
        scale = 1.3,
        bg = "white",
        dpi = 300,
@@ -142,7 +140,6 @@ ggplot(covid_procesados,
         panel.grid.major.y = element_blank())
 
 ggsave(filename = "plots/covid_stripes.png",
-       type = "cairo",
        scale = 1.3,
        bg = "white",
        dpi = 300,

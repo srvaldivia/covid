@@ -1,12 +1,12 @@
 # covid
 
-## Summary:
+## Summary
 
 Análisis de la pandemia COVID en Chile utilizando datos del Ministerio de Salud procesados y disponibilizados por el Ministerio de Ciencia y Tecnología.
 
 Datos hasta **31-08-2023**
 
-## Repositorio de datos:
+## Repositorio de datos
 
 <https://observa.minciencia.gob.cl/datos-abiertos/datos-del-repositorio-covid-19>
 
