@@ -3,3 +3,5 @@ Análisis de la pandemia COVID en Chile utilizando datos del Ministerio de Salud
 
 Repositorio:
 https://observa.minciencia.gob.cl/datos-abiertos/datos-del-repositorio-covid-19
+
+sticatzzi
